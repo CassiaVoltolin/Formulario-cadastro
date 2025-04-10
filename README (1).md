@@ -32,7 +32,7 @@ Após o preenchimento, o usuário pode clicar no botão "Concluído" para exibir
 Se você ainda não tem o repositório, comece clonando-o para o seu computador. Abra o terminal e execute o comando abaixo:
 
 ```bash
-git clone https://github.com/cassiavoltoli/Formulario-cadastro.git
+git clone https://github.com/cassiavoltolin/Formulario-cadastro.git
 ```
 
 Substitua `cassiavoltolin/Formulario-cadastro` pela URL do seu repositório.
@@ -42,7 +42,7 @@ Substitua `cassiavoltolin/Formulario-cadastro` pela URL do seu repositório.
 Entre na pasta do repositório clonado:
 
 ```bash
-cd nomedorepositorio
+cd Formulario-cadastro
 ```
 
 ### 3. Abrir o arquivo no navegador
