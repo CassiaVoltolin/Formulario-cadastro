@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+#titulo {
+    font-family: sans-serif;
+    color: #0b2661;
+    text-align: center;
+    margin-top: 20px;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #0b2661;
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+body {
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #42809d;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Formulário centralizado e com largura máxima */
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Campos de input, select e textarea */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+/* Agrupamento de campos */
+.grupo:before, .grupo:after {
+    display: table;
+}
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.campo label {
+    margin-bottom: 0.3em;
+    color: #42809d;
+    display: block;
+    font-weight: bold;
+}
+
+/* Campos em linha (como nome e sobrenome) */
+fieldset.grupo .campo {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+fieldset.grupo .campo:last-child {
+    margin-right: 0;
+}
+
+/* Campos principais */
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+    padding: 0.4em;
+    border: 1px solid #42809d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+/* Quando focar nos campos */
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #E0E0F8;
+    outline: none;
+}
+
+/* Checkboxes */
+#check {
+    margin-top: 10px;
+}
+#check label {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Botão */
+.botao {
+    font-size: 1.2em;
+    background: #42809d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    fieldset.grupo .campo {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+}
