@@ -32,10 +32,10 @@ Após o preenchimento, o usuário pode clicar no botão "Concluído" para exibir
 Se você ainda não tem o repositório, comece clonando-o para o seu computador. Abra o terminal e execute o comando abaixo:
 
 ```bash
-git clone https://github.com/seunome/nomedorepositorio.git
+git clone https://github.com/cassiavoltoli/Formulario-cadastro.git
 ```
 
-Substitua `seunome/nomedorepositorio` pela URL do seu repositório.
+Substitua `cassiavoltolin/Formulario-cadastro` pela URL do seu repositório.
 
 ### 2. Navegar até o diretório do projeto
 
